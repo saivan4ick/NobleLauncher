@@ -33,7 +33,7 @@
           "sources" : [
             {
               "type" : "git",
-              "url" : "",
+              "url" : "https://github.com/saivan4ick/NobleLauncher.git",
               "tag" : "1.0"
             }
           ]
