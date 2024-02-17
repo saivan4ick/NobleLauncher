@@ -1,0 +1,19 @@
+Build started at 2024-02-17T16:17:36.333013
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 1.3.2
+Source dir: /home/saivan/Рабочий стол/Noble Launcher/data
+Build dir: /home/saivan/Рабочий стол/Noble Launcher/data/NobleLauncher
+Build type: native build
+Project name: NobleLauncher
+Project version: 1.0
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+
+meson.build:10:0: ERROR: Nonexistent build file 'data/meson.build'

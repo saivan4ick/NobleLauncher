@@ -1,0 +1,34 @@
+{
+  "id": "io.github.saivan.NobleLauncher",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "23.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "noblelauncher",
+  "finish-args": [
+    "--socket=fallback-x11",
+    "--socket=wayland",
+    "--socket=pulseaudio",
+    "--share=network",
+    "--share=ipc"
+  ],
+  "modules": [
+    {
+      "name": "minecraft_launcher_lib",
+      "buildsystem": "simple",
+      "build-commands": [
+      "pip install minecraft_launcher_lib"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/73/46/665d4843246e4ae76dafbd0385dc55ecb2a27d5bbcfc0a47d4c3a96d12ac/minecraft-launcher-lib-6.4.tar.gz",
+          "sha256": "8874e5a979c55fc875431523d840870ab59d09dad0b8c1ebc97d3eaca5dbbcf2",
+          }
+      ]
+    },
+        {
+          "name" : "NobleLauncher",
+          
+        }
+  ]
+}
